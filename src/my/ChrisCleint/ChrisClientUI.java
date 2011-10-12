@@ -137,7 +137,7 @@ public class ChrisClientUI extends javax.swing.JFrame implements BrowseListener 
                         //This returns the IP address of the connection
                         theAddress = InetAddress.getByName(hostname);
                         AddText("IP Address " + theAddress);
-                        AddText("IT WORKS");
+                        AddText("The Commit WORKS");
                     } catch (UnknownHostException e) {
                         // ouch..
                     }
